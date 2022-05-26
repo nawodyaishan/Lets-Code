@@ -33,7 +33,6 @@ public class Kata
         }
         else
         {
-
             Array.Reverse(arr);
             return arr;
 
