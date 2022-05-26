@@ -1,4 +1,4 @@
-# Personal Code Archieve for Programming Challenge Problem Sets
+# Personal Code Archive for Programming Challenge Problem Sets
 <p align="left">
 
   
