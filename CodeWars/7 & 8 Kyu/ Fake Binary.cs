@@ -9,10 +9,7 @@ public class Kata
         string result = "";
         for (int i = 0; i < x.Length; i++)
         {
-            if (x[i] < 5)
-                result += 0;
-            else if (x[i] >= 5)
-                result += 1;
+            result += (x[i] < '5') ? 0 : 1;
         }
         return result;
     }
