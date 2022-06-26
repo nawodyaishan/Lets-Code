@@ -352,3 +352,5 @@ MigrationBackup/
 .vscode
 
 .DSstore
+CodeWars/.DS_Store
+.DS_Store
