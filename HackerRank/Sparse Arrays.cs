@@ -21,21 +21,23 @@
 
 public static List<int> matchingStrings(List<string> strings, List<string> queries)
 {
-    
     List<int> result = new List<int>();
 
-    foreach (var query in queries)
+    for (int i = 0; i < queries.Count; i++)
     {
-        int index = 0;
+        int count = 0;
+        string queryTemp = queries[i];
 
-        foreach (var str in strings)
+        for (int j = 0; j < strings.Count; j++)
         {
-            if (str == query)
+            string stringTemp = strings[j];
+
+            if (queryTemp == stringTemp)
             {
-                result[index];
+                count++;
             }
-        index++;
         }
+        result.Add(count);
     }
     return result;
 }
